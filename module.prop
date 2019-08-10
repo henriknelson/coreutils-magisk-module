@@ -3,4 +3,4 @@ name=GNU coreutils For Android
 version=v8.31
 versionCode=1
 author=nelshh
-description=Latest coreutils cross-compiled for android along with advanced cp/mv - has extra patches to add progress bar function
+description=A statically built version of the GNU coreutils for android (aarch64)
