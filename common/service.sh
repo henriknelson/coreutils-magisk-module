@@ -19,11 +19,10 @@ symlink_from_file() {
    chmod -R 755 $2;
 }
 
-mount -o rw,remount /system;
+mount -o rw,remount /system/bin;
 
-cd /system/xbin;
-cp $MODDIR/custom/symlinks_coreutils .;
+cd /system/bin;
+cp $MODDIR/symlinks/symlinks_coreutils .;
 symlink_from_file "$(pwd)/symlinks_coreutils" "$(pwd)";
-rm symlinks_coreutils;
 
-mount -o ro,remount /system;
+mount -o ro,remount /system/bin;

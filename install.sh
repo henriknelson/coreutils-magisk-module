@@ -124,7 +124,7 @@ REPLACE="
 print_modname() {
   ui_print "*********************************************"
   ui_print "     GNU coreutils for Android     	         "
-  ui_print "         - v8.31                             "
+  ui_print "         - v8.32                             "
   ui_print "         - built by nelshh @ xda-developers  "
   ui_print "*********************************************"
 }
@@ -140,10 +140,10 @@ set_permissions() {
   # The following is the default rule, DO NOT remove
   set_perm_recursive $MODPATH 0 0 0755 0644;
 
-  ui_print "[3/4] Installing to /system/xbin..";
-  chown -R 0:0 $MODPATH/system/xbin;
-  chmod -R 755 $MODPATH/system/xbin;
-  find $MODPATH/system/xbin -type f -exec chmod 755 {} +;
+  ui_print "[3/4] Installing to /system/bin..";
+  chown -R 0:0 $MODPATH/system/bin;
+  chmod -R 755 $MODPATH/system/bin;
+  find $MODPATH/system/bin -type f -exec chmod 755 {} +;
 
   ui_print "[4/4] Installation finished";
 }

@@ -1,6 +1,6 @@
-id=coreutils-custom
+id=coreutils-nelshh
 name=GNU coreutils For Android
-version=v8.31
-versionCode=1
+version=v8.32
+versionCode=3
 author=nelshh
 description=A statically built version of the GNU coreutils for android (aarch64)
