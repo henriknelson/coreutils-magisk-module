@@ -1,0 +1,4 @@
+*.1 linguist-language=Shell
+*.py linguist-language=Shell
+*.c linguist-language=Shell
+*.awk linguist-language=Shell
